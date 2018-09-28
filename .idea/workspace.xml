@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fccb5750-c3ec-4951-9e8c-88071f004e12" name="Default Changelist" comment="" />
+    <list default="true" id="fccb5750-c3ec-4951-9e8c-88071f004e12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/features/calendar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GoogleCalendarAPI@quickstart.rcov" NAME="quickstart Coverage Results" MODIFIED="1537966426144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/support/pages" MODULE_NAME="GoogleCalendarAPI" />
+    <SUITE FILE_PATH="coverage/GoogleCalendarAPI@quickstart.rcov" NAME="quickstart Coverage Results" MODIFIED="1538091663225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/support/pages" MODULE_NAME="GoogleCalendarAPI" />
     <SUITE FILE_PATH="coverage/GoogleCalendarAPI@calendar.rcov" NAME="calendar Coverage Results" MODIFIED="1537964015616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/support/pages" MODULE_NAME="GoogleCalendarAPI" />
   </component>
   <component name="DatabaseView">
@@ -41,6 +44,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="1" />
+          <entry key="feature" value="1" />
           <entry key="json" value="1" />
           <entry key="lock" value="1" />
           <entry key="rb" value="19" />
@@ -48,6 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Cucumber" value="1" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Ruby" value="20" />
@@ -56,11 +61,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="158" />
+          <entry key="feature" value="712" />
           <entry key="rb" value="414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Cucumber" value="712" />
           <entry key="Ruby" value="572" />
         </counts>
       </usages-collector>
@@ -68,20 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/secret.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -107,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/calendar.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="18" column="62" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="98" />
+            <state relative-caret-position="290">
+              <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -116,8 +114,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/quickstart.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="102">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/calendar.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -180,6 +187,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/pages/calendar.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/quickstart.rb" />
+        <option value="$PROJECT_DIR$/features/calendar.feature" />
       </list>
     </option>
   </component>
@@ -219,19 +227,6 @@
               <item name="GoogleCalendarAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoogleCalendarAPI" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoogleCalendarAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoogleCalendarAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoogleCalendarAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoogleCalendarAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoogleCalendarAPI" type="b2602c69:ProjectViewProjectNode" />
@@ -298,12 +293,14 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mayya\RubymineProjects\GoogleCalendarAPI\features\support" />
-      <recent name="C:\Users\mayya\RubymineProjects\GoogleCalendarAPI\features\support\pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mayya\RubymineProjects\GoogleCalendarAPI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mayya\RubymineProjects\GoogleCalendarAPI\features" />
+      <recent name="C:\Users\mayya\RubymineProjects\GoogleCalendarAPI\features\step_definitions" />
+      <recent name="C:\Users\mayya\RubymineProjects\GoogleCalendarAPI\features\support" />
+      <recent name="C:\Users\mayya\RubymineProjects\GoogleCalendarAPI\features\support\pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,12 +369,12 @@
       <workItem from="1537670595403" duration="7774000" />
       <workItem from="1537777511909" duration="1693000" />
       <workItem from="1537929790366" duration="1834000" />
-      <workItem from="1537962304774" duration="6062000" />
+      <workItem from="1537962304774" duration="12486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17363000" />
+    <option name="totallyTimeSpent" value="23787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -465,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/calendar.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/googleauth-0.6.6/lib/googleauth/application_default.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -486,17 +476,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/quickstart.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/secret.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/calendar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/quickstart.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/calendar.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
         </state>
       </provider>
     </entry>
